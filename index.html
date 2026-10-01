@@ -83,7 +83,7 @@
 </dialog>
 
 <script>
-// ⚠️ EDIT THIS to your zrok URL (no trailing slash):
+//This URL may not be permanent just saying 
 const API = 'https://randomahhthings.share.zrok.io';
 
 let products = [];
@@ -144,7 +144,7 @@ function render() {
   }).join('');
   renderCart();
 }
-
+//I made sure to save the cart this time i think it was buggy last time
 function add(id) {
   const p = products.find(x => x.id === id);
   if (!p) return;
